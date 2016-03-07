@@ -3,13 +3,15 @@ ES static php end-point using apc for cluster state handling. If one or more nod
 
 
 CONFIG:
+
+
 edit static variable in elasticsearch.php or set static variable $connections in your code
 
 USAGE:
-<? 
+
+
     Elasticseach::put($index,$query); 
     
     $result = Elasticseach::fetch($index,$query);     
     
     Elasticseach::delete($index); 
-?> 
